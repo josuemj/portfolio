@@ -1,0 +1,31 @@
+.navBar{
+    width: 240px;
+    background-color: #264094;
+    position: absolute;
+    height: 100vh;
+    transition: all 1s;
+    padding: 0 30px;
+    transition: all 1s;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+ul li a:hover{
+    background-color: rgb(137, 180, 180);
+}
