@@ -1,8 +1,9 @@
 import './NavBar.css'
-function NavBar(){
+
+function NavBar({show}){
     return(
         <>
-        <div className="navBar">
+        <div className={show ? 'navBar active' : 'navBar'}>
             <ul>
                 <li>
                     <a>About me</a>

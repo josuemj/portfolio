@@ -29,3 +29,12 @@ header {
   padding: 10px 20px; /* Adds padding inside the header */
   margin: 0 auto;
 }
+
+header svg{
+  font-size: 30px;
+  transition: font-size, ease 0.2s;
+}
+
+header svg:hover{
+  font-size: 32px;
+}
