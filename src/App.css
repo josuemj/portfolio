@@ -21,13 +21,14 @@ body {
 }
 
 header {
-  background-color: rgb(255, 0, 0); /* Red background */
+  background-color: rgb(145, 100, 195); /* Red background */
   width: 100%; /* Full width */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px; /* Adds padding inside the header */
   margin: 0 auto;
+  z-index: 1;
 }
 
 header svg{

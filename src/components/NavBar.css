@@ -1,18 +1,22 @@
 .navBar {
-    width: 240px;
+    width: 100px;
     background-color: #264094;
     height: 100vh;
     transition: all 1s;
     padding: 0 30px;
     left: -100%; /* Initially off-screen */
+    position: absolute;
+    z-index: 0;
+    margin-top: 50px;
 }
 
 .navBar.active {
     left: 0; /* Bring into view when active */
+    background-color: rgb(106, 106, 178);
 }
 
 ul{
-    padding: 0;
+    padding: 0; 
 }
 
 ul li{
@@ -21,7 +25,6 @@ ul li{
 
 ul li a{
     color: white;
-    text-decoration: none;
     font-size: 10px;
     display: block;
     border-radius: 6px;
