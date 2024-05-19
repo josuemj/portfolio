@@ -14,6 +14,19 @@ function App() {
         <GiHamburgerMenu onClick={() => setShowNav(!showNav)}/>
       </header>
       <NavBar show={showNav}/>
+      <div className={`mainDiv ${showNav ? "active" : ""}`}> 
+        
+        <div className="content">
+          about
+        </div >
+        <div className="content">
+          skills
+        </div>
+        <div className="content">
+          Proyects
+        </div>
+        <div className="content">Sports</div>
+      </div>
     </>
   );
 }

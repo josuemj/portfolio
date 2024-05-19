@@ -1,14 +1,15 @@
 .navBar {
-    width: 100px;
-    background-color: #264094;
-    height: 100vh;
-    transition: all 1s;
-    padding: 0 30px;
-    left: -100%; /* Initially off-screen */
-    position: absolute;
-    z-index: 0;
-    margin-top: 50px;
+    width: 100px; /* Ancho de la barra */
+    background-color: #264094; /* Color de fondo */
+    height: calc(100vh - 50px); /* Altura total de la ventana menos 50px si es necesario */
+    padding: 0 30px; /* Padding interno */
+    left: -200px; /* Inicialmente fuera de la pantalla, asegúrate que este valor sea igual al ancho de la barra */
+    position: fixed; /* Fijado en la ventana del navegador */
+    z-index: 1000; /* Z-index alto para asegurar que esté sobre otros elementos */
+    top: 50px; /* Desplazado hacia abajo desde el top si es necesario */
+    transition: all 0.25s ease; /* Transición suave para animaciones */
 }
+
 
 .navBar.active {
     left: 0; /* Bring into view when active */

@@ -1,5 +1,5 @@
 /* Reset CSS to avoid unwanted margins and paddings */
-html, body, #root {
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -8,13 +8,16 @@ html, body, #root {
 }
 
 body {
+  width: 100vw;
+
   display: flex;
-  flex-direction: column; /* Makes sure children (like #root) are laid out in a column */
-  min-height: 100vh; /* Ensures the body is at least the height of the viewport */
+  flex-direction: column; /* Asegura que los hijos estén dispuestos en columna */
+  min-height: 100vh; /* Asegura que body tenga al menos la altura de la ventana del navegador */
 }
 
 #root {
   display: flex;
+
   flex-direction: column; /* Ensures elements inside root are arranged in a column */
   width: 100%;
   min-height: 100vh; /* Ensures root takes at least the viewport height */
@@ -26,16 +29,40 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px; /* Adds padding inside the header */
+   /* Adds padding inside the header */
   margin: 0 auto;
   z-index: 1;
+  height: 50px;
 }
 
 header svg{
   font-size: 30px;
-  transition: font-size, ease 0.2s;
+  transition: font-size, ease 0.25s;
+  margin-left: 20px;
 }
 
 header svg:hover{
   font-size: 32px;
+}
+
+.mainDiv {
+  transition: margin-left 0.25s ease; /* Suaviza la transición de margen */
+  width: 100%; /* Ancho completo cuando la NavBar está oculta */
+  height: 100%;
+  background-color: coral;
+}
+
+.mainDiv.active {
+  background-color: rgb(29, 26, 21);
+  width: calc(100% - 160px);
+  margin-left: 160px; 
+}
+
+div.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(58, 78, 72);
 }
