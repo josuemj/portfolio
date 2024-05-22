@@ -37,7 +37,7 @@ header {
 
 header svg{
   font-size: 30px;
-  transition: font-size, ease 0.25s;
+  transition: font-size,  0.25s;
   margin-left: 20px;
 }
 
@@ -46,7 +46,7 @@ header svg:hover{
 }
 
 .mainDiv {
-  transition: margin-left 0.25s ease; /* Suaviza la transición de margen */
+  transition: margin-left 0.25s; /* Suaviza la transición de margen */
   width: 100%; /* Ancho completo cuando la NavBar está oculta */
   height: 100%;
   background-color: coral;

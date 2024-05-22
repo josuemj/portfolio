@@ -7,7 +7,7 @@
     position: fixed; /* Fijado en la ventana del navegador */
     z-index: 1000; /* Z-index alto para asegurar que esté sobre otros elementos */
     top: 50px; /* Desplazado hacia abajo desde el top si es necesario */
-    transition: all 0.25s ease; /* Transición suave para animaciones */
+    transition: all 0.25s; /* Transición suave para animaciones */
 }
 
 
