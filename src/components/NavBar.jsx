@@ -6,7 +6,7 @@ function NavBar({show}){
         <div className={show ? 'navBar active' : 'navBar'}>
             <ul>
                 <li>
-                    <a>About me</a>
+                    <a>About</a>
                 </li>
                 <li>
                     <a>Skills</a>

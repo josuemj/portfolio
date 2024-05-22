@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { GiHamburgerMenu } from "react-icons/gi";
+import About from "./components/about/About";
 
 function App() {
   const [showNav, setShowNav] = useState(false)
@@ -15,10 +16,8 @@ function App() {
       </header>
       <NavBar show={showNav}/>
       <div className={`mainDiv ${showNav ? "active" : ""}`}> 
-        
-        <div className="content">
-          about
-        </div >
+      
+        <About />
         <div className="content">
           skills
         </div>

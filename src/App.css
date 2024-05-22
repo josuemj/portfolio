@@ -24,7 +24,7 @@ body {
 }
 
 header {
-  background-color: rgb(145, 100, 195); /* Red background */
+  background-color: rgb(50, 31, 100); /* Red background */
   width: 100%; /* Full width */
   display: flex;
   align-items: center;

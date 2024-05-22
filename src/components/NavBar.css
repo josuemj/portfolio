@@ -13,7 +13,7 @@
 
 .navBar.active {
     left: 0; /* Bring into view when active */
-    background-color: rgb(106, 106, 178);
+    background-color: rgb(82, 82, 170);
 }
 
 ul{
@@ -26,7 +26,7 @@ ul li{
 
 ul li a{
     color: white;
-    font-size: 10px;
+    font-size: 18px;
     display: block;
     border-radius: 6px;
     padding: 10px 15px;
