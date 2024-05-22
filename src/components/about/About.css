@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jersey+25+Charted&family=Poetsen+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Jersey+20&family=Jersey+25+Charted&family=Poetsen+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 .about-section{
     width: 100%;
     height: 1200px;
@@ -94,7 +96,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(6, 2, 37);
 }
 
 .image-holder {
@@ -103,20 +105,23 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    position: relative;
 }
 
 .image-holder img {
-    border-radius: 50%; /* This will make the image circular */
+    border-radius:  0% 70% 0% 70%; /* This will make the image circular */
     width: 60%; /* Ensure the image fills the container width */
     height: 60%; /* Ensure the image fills the container height */
     object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
-    border: solid white 10px;
-    transition: border 1s;
+    border: solid rgb(66, 65, 65) 0px;
+    transition: border 10s ease, border-radius 20s ease;
+    position: relative; /* Añade posición relativa para que el borde se ajuste correctamente */
+
 }
 
-.image-holder.img.scrolled {
-    border: solid white 30px;
-
+.image-holder.scrolled img{
+    border: solid rgb(109, 96, 177) 30px;
+    border-radius: 50%;
 }
 
 @media (max-width: 768px) {
@@ -131,6 +136,41 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
+.welcome {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    animation: floating 3s ease-in-out infinite alternate; /* Adjust timing and easing as needed */
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px); /* Adjust the distance of the float */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+.description-welcome{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+    padding-right: 40px;
+      text-align: center;
+
+}
+
 
 
