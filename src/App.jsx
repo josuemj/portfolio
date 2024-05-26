@@ -3,6 +3,9 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import { GiHamburgerMenu } from "react-icons/gi";
 import About from "./components/about/About";
+import Sports from "./components/Sports/Sports";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const [showNav, setShowNav] = useState(false);
@@ -34,6 +37,10 @@ function App() {
       <NavBar show={showNav && !hideNavBar} />
       <div className={`mainDiv ${showNav && !hideNavBar ? "active" : ""}`}>
         <About />
+        <Skills />
+        <Projects />
+        <Sports />
+
         <div className="content">Skills</div>
         <div className="content">Projects</div>
         <div className="content">Sports</div>

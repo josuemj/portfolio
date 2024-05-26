@@ -40,12 +40,12 @@ function About() {
             <div className="description">
               <span className="welcome">Welcome!</span>
               <p className='description-welcome'>
-                "Hi! I'm a Junior FullStack Developer based in
+                Hi! I'm a Junior FullStack Developer based in
                 Guatemala, passionate about Front End Development, AI,
                 Mathematics, and Mobile Development. Currently in my third year
                 of Computer Science and Information Technology studies, I'm
                 always eager to embrace new challenges and expand my skillset.
-                Let's connect and dive into my background!"
+                Let's connect and dive into my background!
               </p>
             </div>
           </div>
