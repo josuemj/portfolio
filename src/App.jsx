@@ -40,10 +40,6 @@ function App() {
         <Skills />
         <Projects />
         <Sports />
-
-        <div className="content">Skills</div>
-        <div className="content">Projects</div>
-        <div className="content">Sports</div>
       </div>
     </>
   );
