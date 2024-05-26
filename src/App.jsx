@@ -31,15 +31,22 @@ function App() {
 
   return (
     <>
-      <header>
+      <header id="about">
         <GiHamburgerMenu onClick={() => setShowNav(!showNav)} />
       </header>
       <NavBar show={showNav && !hideNavBar} />
       <div className={`mainDiv ${showNav && !hideNavBar ? "active" : ""}`}>
-        <About />
-        <Skills />
-        <Projects />
-        <Sports />
+    
+          <About />
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="sports">
+          <Sports />
+        </div>
       </div>
     </>
   );
