@@ -4,6 +4,10 @@ import React, { useEffect, useState } from "react";
 import SkillSample from "../SkillSample/SkillSample";
 import profile from "./profile.jpg";
 import analytics from "./icon-an.png";
+import communication from "./communication.png";
+import critical from './critical.png';
+import solving from './solving.png'
+import timeman from './time-man.png'
 
 function About() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -68,12 +72,13 @@ function About() {
               thinking, problem-solving abilities, and time management.
             </p>
             <div className="objective-demo">
-              <SkillSample img={analytics} text={"Thinking"} size="100px" />
-              <SkillSample img={analytics} text={"Thinking"} size="100px" />
-              <SkillSample img={analytics} text={"Thinking"} size="100px" />
-              <SkillSample img={analytics} text={"Thinking"} size="100px" />
-              <SkillSample img={analytics} text={"Thinking"} size="100px" />
+              <SkillSample img={analytics} text={"Analytics"} size="100px" />
+              <SkillSample img={communication} text={"Communication"} size="100px" />
+              <SkillSample img={critical} text={"Critical Thinking"} size="100px" />
+              <SkillSample img={solving} text={"Problem Solving"} size="100px" />
 
+
+              <SkillSample img={timeman} text={"Time"} size="100px" />
             </div>
           </div>
         </div>
