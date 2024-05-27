@@ -1,0 +1,17 @@
+.img-container {
+    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden; /* To ensure the pseudo-element doesn't overflow */
+    transition: transform 0.5s ease, background-color 0.1s ease; /* Smooth transition for the scale */
+  }
+  
+  .img-container:hover {
+    transform: scale(1.5); /* Scale up the container on hover */
+    background-color: rgb(25, 72, 134);
+  }
+  

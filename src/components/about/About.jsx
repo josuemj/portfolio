@@ -1,6 +1,9 @@
 import "./About.css";
 import ImageHolder from "../ImageHolder/ImageHolder";
 import React, { useEffect, useState } from "react";
+import SkillSample from "../SkillSample/SkillSample";
+import profile from "./profile.jpg";
+import analytics from "./icon-an.png";
 
 function About() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,6 +24,14 @@ function About() {
     };
   }, []);
 
+  const objStyle = {
+    color: "rgb(0, 102, 150)",
+    fontSize: "140px",
+    width: "100%",
+    height: "40%",
+    paddingTop: "15px",
+  };
+
   return (
     <>
       <section className="about-section">
@@ -31,22 +42,38 @@ function About() {
           </div>
           <div className="introduction">
             <div className={`image-holder ${isScrolled ? "scrolled" : ""}`}>
-              <ImageHolder
-                image={
-                  "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg"
-                }
-              />
+              <ImageHolder image={profile} />
             </div>
             <div className="description">
               <span className="welcome">Welcome!</span>
-              <p className='description-welcome'>
-                Hi! I'm a Junior FullStack Developer based in
-                Guatemala, passionate about Front End Development, AI,
-                Mathematics, and Mobile Development. Currently in my third year
-                of Computer Science and Information Technology studies, I'm
-                always eager to embrace new challenges and expand my skillset.
-                Let's connect and dive into my background!
+              <p className="description-welcome">
+                Hi! I'm a Junior FullStack Developer based in Guatemala,
+                passionate about Front End Development, AI, Mathematics, and
+                Mobile Development. Currently in my third year of Computer
+                Science and Information Technology studies, I'm always eager to
+                embrace new challenges and expand my skillset. Let's connect and
+                dive into my background!
               </p>
+            </div>
+          </div>
+          <div className="objective">
+            <span className="welcome" style={objStyle}>
+              &lt;Objective/&gt;
+            </span>
+            <p className="description-objective">
+              With a strong foundation in computer science and information
+              technology, my experience in the tech industry has equipped me
+              with valuable skills, including effective communication, fast
+              learning, adaptability, a collaborative approach, analytical
+              thinking, problem-solving abilities, and time management.
+            </p>
+            <div className="objective-demo">
+              <SkillSample img={analytics} text={"Thinking"} size="100px" />
+              <SkillSample img={analytics} text={"Thinking"} size="100px" />
+              <SkillSample img={analytics} text={"Thinking"} size="100px" />
+              <SkillSample img={analytics} text={"Thinking"} size="100px" />
+              <SkillSample img={analytics} text={"Thinking"} size="100px" />
+
             </div>
           </div>
         </div>
