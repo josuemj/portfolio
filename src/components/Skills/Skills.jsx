@@ -1,13 +1,14 @@
-import './Skills.css'
+import "./Skills.css";
 
-function Skills(){
-    return(
-        <>
-        <section className="skills-section">
-            Skills
-        </section>
-        </>
-    )
+function Skills() {
+  return (
+    <>
+      <section className="skills-section">
+      <span className="skill-welcome">&lt;My Tech Skills/&gt;</span>
+
+      </section>
+    </>
+  );
 }
 
-export default Skills
+export default Skills;

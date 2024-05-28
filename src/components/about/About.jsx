@@ -76,8 +76,6 @@ function About() {
               <SkillSample img={communication} text={"Communication"} size="100px" />
               <SkillSample img={critical} text={"Critical Thinking"} size="100px" />
               <SkillSample img={solving} text={"Problem Solving"} size="100px" />
-
-
               <SkillSample img={timeman} text={"Time"} size="100px" />
             </div>
           </div>
