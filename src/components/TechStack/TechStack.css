@@ -1,0 +1,11 @@
+.tech-stack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-stack-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
