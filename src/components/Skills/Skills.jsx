@@ -82,37 +82,37 @@ function Skills() {
 
   const frontStyle = {
     width: frontwidth,
-    border: "solid white 5px"
+    border: "solid #ffd52e94 5px"
   }
 
   const backStyle = {
     width: backwidth,
-    border: "solid white 5px"
+    border: "solid #48b8d694 5px"
   }
 
   const dataStyle = {
     width: datawidth,
-    border: "solid white 5px"
+    border: "solid #a4e1d58a 5px"
   }
 
   const mobileStyle = {
     width: mobilewidth,
-    border: "solid white 5px"
+    border: "solid WHITE 5px"
   }
 
   const testingStyle = {
     width: testingwidth,
-    border: "solid white 5px"
+    border: "solid #dfa4e18a 5px"
   }
 
   const uixStyle = {
     width: uixwidth,
-    border: "solid white 5px"
+    border: "solid #9f14678a 5px"
   }
 
   const projectStyle = {
     width: projectwidth,
-    border: "solid white 5px"
+    border: "solid #234195b8 5px"
   }
 
   const languageStyle = {
