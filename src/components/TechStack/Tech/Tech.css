@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Press+Start+2P&display=swap');
+
+
 .tech-image{
     width: 100px;
     height: 100px;
+    transition: all 0.3s ease;
 }
 
 .tech-holder{
@@ -9,4 +13,28 @@
     color: white;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: width 1s ease;
+    transition: all 0.3s ease;
+
+}
+
+.in-tech-name{
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    transition: all 0.3s ease;
+
+}
+
+.tech-holder:hover .tech-image {
+    width: 120px; /* Aumentar el tamaño de la imagen en 20px */
+    height: 120px; /* Aumentar el tamaño de la imagen en 20px */
+}
+
+.tech-holder:hover .in-tech-name {
+    font-size: 30px; /* Aumentar el tamaño de la fuente */
+    color: #ffcc00; /* Cambiar el color del texto */
 }
