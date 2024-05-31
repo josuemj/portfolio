@@ -44,9 +44,7 @@ function App() {
         <div id="projects">
           <Projects />
         </div>
-        <div id="sports">
-          <Sports />
-        </div>
+        
       </div>
     </>
   );
