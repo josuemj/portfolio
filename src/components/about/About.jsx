@@ -43,6 +43,13 @@ function About() {
           <div className="text-container">
             <span className="hello">Hello There!</span>
             <span className="name">&lt;I'm Josue Marroquin/&gt;</span>
+            <span className="name" style={{
+              color: "rgb(0, 177, 109)",
+              fontSize: "8rem",
+              width: "100%",
+              height: "40%",
+            }}>&lt;2.0/&gt;</span>
+
           </div>
           <div className="introduction">
             <div className={`image-holder ${isScrolled ? "scrolled" : ""}`}>
