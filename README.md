@@ -1,13 +1,30 @@
-# Hi Community!
+# Welcome to My Portfolio 👋
 
-I’m delighted to share with you my portfolio. Here you can find details of the various personal and group projects I have worked on, showcasing the technologies and skills I have developed.
+I'm delighted to share my development journey with you! This portfolio showcases various personal and collaborative projects that highlight my technical skills and creative approach to problem-solving.
 
-## Live Portfolio
+> **Note:** Portfolio redesign is currently under construction! Check back soon for an enhanced experience.
 
-Check out the live site to see more details about my work: [My Portfolio](https://portfoliojosuemj.netlify.app/)
+## 🚀 Live Portfolio
 
-## About Me
+Explore my work in detail: [My Portfolio](https://portfoliojosuemj.netlify.app/)
 
-I am currently involved in multiple personal and group projects where I have used a variety of advanced technologies. This experience has helped me develop skills in connecting users, building communities, and enhancing social interactions.
+## 👨‍💻 About Me
 
-Thank you for visiting my portfolio!
+I'm a passionate developer focused on creating meaningful digital experiences. Currently working on multiple personal and collaborative projects, I leverage advanced technologies to:
+- Connect users and build communities
+- Enhance social interactions through technology
+- Develop intuitive and responsive user interfaces
+
+## 💼 Projects
+
+My portfolio features a diverse range of projects that demonstrate my technical versatility and problem-solving abilities.
+
+## 🛠️ Tech Stack
+
+The portfolio showcases my experience with various technologies including frontend frameworks, backend systems, and design tools.
+
+## 📬 Get In Touch
+
+I'm always open to new opportunities and collaborations. Feel free to reach out through the contact information on my portfolio site.
+
+Thank you for visiting!
